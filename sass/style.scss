@@ -1,0 +1,10 @@
+@import "mixin";
+@import "reset";
+@import "common";
+
+
+.banner{
+    height: rem(350);
+    background-color: #42a5f5;
+    color:#fff;
+}
