@@ -3,49 +3,49 @@
 /*
   *font-size
 */
-.s-fs40 {
+.k-fs40 {
   font-size: 0.53333rem; }
 
-.s-fs38 {
+.k-fs38 {
   font-size: 0.50667rem; }
 
-.s-fs36 {
+.k-fs36 {
   font-size: 0.48rem; }
 
-.s-fs34 {
+.k-fs34 {
   font-size: 0.45333rem; }
 
-.s-fs32 {
+.k-fs32 {
   font-size: 0.42667rem; }
 
-.s-fs30 {
+.k-fs30 {
   font-size: 0.4rem; }
 
-.s-fs28 {
+.k-fs28 {
   font-size: 0.37333rem; }
 
-.s-fs26 {
+.k-fs26 {
   font-size: 0.34667rem; }
 
-.s-fs24 {
+.k-fs24 {
   font-size: 0.32rem; }
 
-.s-fs22 {
+.k-fs22 {
   font-size: 0.29333rem; }
 
-.s-fs20 {
+.k-fs20 {
   font-size: 0.26667rem; }
 
-.s-fs18 {
+.k-fs18 {
   font-size: 0.24rem; }
 
-.s-fs16 {
+.k-fs16 {
   font-size: 0.21333rem; }
 
-.s-fs14 {
+.k-fs14 {
   font-size: 0.18667rem; }
 
-.s-fs12 {
+.k-fs12 {
   font-size: 0.16rem; }
 
 /*
@@ -57,8 +57,28 @@
 .s-c-b {
   color: #000; }
 
+.s-c-b3 {
+  color: #333; }
+
+.s-c-gy9 {
+  color: #999; }
+
 .s-bg-blue {
   background-color: #42a5f5; }
+
+/*
+  *function
+*/
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.f-fl {
+  float: left; }
+
+.f-fr {
+  float: right; }
 
 /*
   *layout

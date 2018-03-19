@@ -4,38 +4,60 @@
 /*
   *font-size
 */
-.s-fs40 { font-size: rem(40); }
-.s-fs38 { font-size: rem(38); }
-.s-fs36 { font-size: rem(36); }
-.s-fs34 { font-size: rem(34); }
-.s-fs32 { font-size: rem(32); }
-.s-fs30 { font-size: rem(30); }
-.s-fs28 { font-size: rem(28); }
-.s-fs26 { font-size: rem(26); }
-.s-fs24 { font-size: rem(24); }
-.s-fs22 { font-size: rem(22); }
-.s-fs20 { font-size: rem(20); }
-.s-fs18 { font-size: rem(18); }
-.s-fs16 { font-size: rem(16); }
-.s-fs14 { font-size: rem(14); }
-.s-fs12 { font-size: rem(12); }
+.k-fs40 { font-size: rem(40); }
+.k-fs38 { font-size: rem(38); }
+.k-fs36 { font-size: rem(36); }
+.k-fs34 { font-size: rem(34); }
+.k-fs32 { font-size: rem(32); }
+.k-fs30 { font-size: rem(30); }
+.k-fs28 { font-size: rem(28); }
+.k-fs26 { font-size: rem(26); }
+.k-fs24 { font-size: rem(24); }
+.k-fs22 { font-size: rem(22); }
+.k-fs20 { font-size: rem(20); }
+.k-fs18 { font-size: rem(18); }
+.k-fs16 { font-size: rem(16); }
+.k-fs14 { font-size: rem(14); }
+.k-fs12 { font-size: rem(12); }
 
 /*
   *color
 */
 $c-w:#fff;
 $c-b:#000;
+$c-b3:#333;
+$c-gy9:#999;
 $c-blue:#42a5f5;
 
 .s-c-w { color:$c-w; }
 .s-c-b { color:$c-b; }
+.s-c-b3 { color:$c-b3; }
+.s-c-gy9 { color:$c-gy9; }
 .s-bg-blue { background-color:$c-blue; }
     
+
+/*
+  *function
+*/
+
+.clearfix:after {
+  content:""; 
+  display: block; 
+  clear:both; 
+}
+.f-fl{
+  float: left;
+}
+.f-fr{
+  float: right;
+}
+
 
 /*
   *layout
 */
 .g-tac{ text-align: center;}
+
 
 
 /*
@@ -53,7 +75,6 @@ $c-blue:#42a5f5;
 .g-flex-main-v{ 
     @include flexMainDirect(column);
 }
-
 .g-flex-hc{ //水平居中
     @include flexHCenter();
 }
