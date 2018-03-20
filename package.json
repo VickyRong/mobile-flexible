@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "ansi-cyan": "^0.1.1",
+    "browser-sync": "^2.23.6",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^3.9.3",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-rev": "^8.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}

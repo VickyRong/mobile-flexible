@@ -185,8 +185,8 @@ html, body {
   text-align: center; }
 
 /*
-  *layout-flex
-*/
+    *layout-flex
+  */
 .g-flex {
   display: -webkit-box;
   display: -webkit-flex;
